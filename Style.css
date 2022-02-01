@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 *{
     margin: 0 ;
@@ -65,3 +66,44 @@ header {
     top: 0;
     left: 70px;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EEEEEE;
+}
+/* start recent section style */
+.recent-posts {
+    margin: 2em;
+    background-color: white;
+    padding: 1em;
+}
+.recent-posts h2 {
+    font-size: 2em;
+    margin-bottom: .5em;
+    font-weight: bold;
+    margin-left: 1em;
+}
+.posts{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.post{
+    background-color: #EEEEEE;
+    width: 30%;
+    margin-bottom: 1em;
+    border: 1px solid black;
+}
+.post figure img{
+     width: 100%;
+}
+.post p {
+    margin: .5em;
+    font-size: 1.5em;
+}
+/* end recent section style */
+>>>>>>> 530152ba9cef4fa61a8e4946e4461fd2a9b973fb
