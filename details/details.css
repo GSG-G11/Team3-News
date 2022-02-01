@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+}
+/* Comments */
+.comments{
+    margin: 2rem;
+}
+h2{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #A71313;
+}
+input{
+    margin-top: 0.5rem;
+    padding: 1rem;
+    width: 19.9rem;
+    height: 2rem;
+    background-color: #E8BFBF ;
+    border: none;
+    border-radius: 0.3rem;
+}
+textarea{ 
+    padding: 1rem;
+    margin-top: 0.5rem;
+    width: 40rem;
+    height: 15rem;
+    resize: none;
+    background-color: #E8BFBF ;
+    border: none;
+    border-radius: 0.3rem;
+}
+button{
+    margin-top: 0.5rem;
+    width: 40rem;
+    height: 3rem;
+    background-color: #A71313;
+    border: none;
+    border-radius: 0.3rem;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.firstComment{
+    background-color: #E8BFBF;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    width: 40rem;
+    color: #000;
+    border-radius: 0.3rem;
+}
+.username{
+    font-weight: bold;
+}
+.time{
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: 33.5rem;
+    display: inline;
+}
+.comment{
+    margin-top: 0.5rem;
+}
