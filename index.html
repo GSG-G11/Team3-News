@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AIRM News</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./Style.css">
 </head>
 
@@ -13,13 +14,25 @@
     <header>
         <nav class="nav-bar">
             <a href="index.html"><img src="Rectangle 61.png" alt="" class="navBar-img"></a>
-            <ul class="unorderlist-nav">
+            
+            <ul class="unorderlist-nav">     
                 <li><a href="#">Politics</a></li>
                 <li><a href="#">Economic</a></li>
                 <li><a href="#">Sport</a></li>
                 <li><a href="#">Culture</a></li>
             </ul>
+            <i class="fa fa-bars" style="font-size: 36px;" onclick="view();"></i> 
+            
+          
+            
         </nav>
+        <div class="small-nav" id="small-nav">  
+                 
+            <a href="#" >Politics</a>
+            <a href="#">Economic</a>
+            <a href="#">Sport</a>
+            <a href="#">Culture</a>
+        </div>
     </header>
     <!-- start recent section -->
     <section class="recent-posts">
@@ -273,6 +286,19 @@
         </aside>
     </section>
     <!-- end culture and devices section -->
+    <script>
+        function view(){
+        
+        var smallNav = document.getElementById("small-nav");
+        //console.log(smallNav);
+      //  console.log(smallNav.style.display);
+        if(smallNav.style.display != 'none' ){
+            smallNav.style.display = 'none';
+        }else{
+            smallNav.style.display = 'block';
+        }
+    }
+    </script>
 </body>
 
 </html>

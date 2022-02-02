@@ -32,16 +32,16 @@ header {
     height: 50%;
     background-color: rgb(165, 129, 129);
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     position: relative;
 }
 
 .nav-bar .unorderlist-nav {
-    width: 50%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     list-style: none;
     padding: 10px;
@@ -50,26 +50,59 @@ header {
 
 .nav-bar .unorderlist-nav li {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 20%;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .nav-bar .unorderlist-nav li a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
+    font-weight: normal;
 }
 
 .navBar-img {
     height: 100%;
     position: absolute;
     top: 0;
-    left: 70px;
+    left: 5rem;
 }
-
-
+i{
+    display: none;
+}
+.small-nav{
+    display: none;
+}
+@media  screen and (max-width: 768px) {
+    i{
+        color: white;
+        padding-left: 15em;
+        text-align: right;
+    }
+    .nav-bar .unorderlist-nav {
+        display: none;
+    }
+    .small-nav {
+        background-color: #A18181;
+        width: 100%;
+        height: 15em;
+        display: none;
+    }
+    
+    .small-nav  a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: normal;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid white;
+        display: block;
+        padding: 0.5em;
+        z-index: 1;
+    }
+}
+ 
 /* start recent section style */
 
 .recent-posts {
