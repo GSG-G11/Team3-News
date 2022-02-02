@@ -15,12 +15,6 @@ body {
 
 /* nav bar start */
 
-.title {
-    font-size: 2em;
-    margin-bottom: .5em;
-    font-weight: bold;
-}
-
 header {
     top: 0px;
     width: 100%;
