@@ -316,3 +316,67 @@ h3 {
     color: #a71313;
 }
 /* end footer style  */
+
+@media (max-width :768px) {
+    .title{
+       text-align: center;
+    }
+    .important-news .left-news,
+    .important-news .right-news{
+        width: 100%;
+        margin-right: 0%;
+        margin-bottom: 1em;
+    }
+    .important-news .right-news {
+        flex-direction: row;
+    }
+    .important-news .right-news .important  {
+        width: 49%;
+        height: 80%;
+    }
+    .important-news .right-news .important p {
+        font-size: 1em;
+    }
+    .post{
+        width: 100%;
+    }
+    .politics-most-read,
+    .culture-devices {
+        flex-direction: column;
+    }
+    .politics-economics,
+    .sport-culture {
+    width: 100%;
+    margin-bottom: 1em;
+    }
+    .politics-economics .politics .news .new,
+    .politics-economics .economic .news .new,
+    .sport-culture .sport .news .new,
+    .sport-culture .culture .news .new {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .most-read,
+    .devices {
+    width: 100%;
+    }
+}
+@media (min-width:769px) and (max-width :1023px) {
+    .important-news .left-news,
+    .important-news .right-news{
+        width: 100%;
+        margin-right: 0%;
+        margin-bottom: 1em;
+    }
+    .important-news .right-news {
+        flex-direction: row;
+    }
+    .important-news .right-news .important  {
+        width: 49%;
+        height: 80%;
+    }
+    .important-news .right-news .important p {
+        font-size: 1em;
+    }
+
+}
