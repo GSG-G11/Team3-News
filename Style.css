@@ -258,6 +258,7 @@ h4 {
 .footer-section {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: #A18181;
     padding: 2em;
 }
@@ -359,6 +360,18 @@ h3 {
     .most-read,
     .devices {
     width: 100%;
+    }
+    .left-footer,.center-footer,.right-footer {
+        padding: .5em 5em;
+        width: 100%;
+        margin-bottom: 0.5em;
+        border-bottom:1px solid white ;
+    }
+    .left-footer img {
+        margin: .5em;
+    }
+    .left-footer p {
+        text-align: left;
     }
 }
 @media (min-width:769px) and (max-width :1023px) {
