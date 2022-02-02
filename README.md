@@ -24,3 +24,5 @@ to complete the project.
 3. We will Create File structure.
 4. We will make main page and news details page.
 5. We will make the site responsive to different devices.
+## Live Link
+We are pleased to have you visit our website [from here](https://gsg-g11.github.io/Team3-News/), and thank you.
