@@ -9,7 +9,7 @@
 
 body {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 
@@ -81,13 +81,15 @@ header {
 .all-details-section-with-comments {
     display: flex;
     flex-direction: column;
+    width: 69%;
+    margin-right: 1%;
 }
 
 .paragraph-details-section {
     display: flex;
     flex-direction: column;
     margin-left: 80px;
-    width: 60vw;
+    width: 69%;
 }
 
 .title-of-news {
@@ -146,6 +148,7 @@ header {
 
 .comments {
     margin: 2rem;
+    width: 100%;
 }
 
 .comments h2 {
@@ -207,9 +210,7 @@ header {
 }
 
 .time {
-    position: absolute;
-    margin-top: -1rem;
-    margin-left: 33.5rem;
+    position: unset;
     display: inline;
 }
 
@@ -222,8 +223,6 @@ header {
 
 .first-containar {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
 }
 
 
@@ -232,6 +231,10 @@ header {
 .more-relative {
     background-color: #EEEEEE;
     padding: 1rem;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .more-relative h2 {
@@ -249,7 +252,7 @@ header {
 
 .post {
     background-color: #EEEEEE;
-    width: 20rem;
+    width: 100%;
     margin-bottom: 1rem;
     border: 1px solid black;
 }
@@ -265,3 +268,135 @@ header {
 
 
 /* End More Relative style */
+
+
+/* start media query for mobile */
+
+@media (max-width :768px) {
+    .all-details-section-with-comments {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-details-section {
+        align-items: flex-start;
+    }
+    .paragraph-details-section {
+        margin-left: 20px;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .img-of-news {
+        width: 100%;
+    }
+    .title-of-news {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .comments {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .comments h2 {
+        margin-left: 0px;
+    }
+    .comments-section {
+        margin-left: 0px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .comments input {
+        width: 80vw;
+    }
+    .comments textarea {
+        width: 80vw;
+        margin-top: 0px;
+    }
+    .comments button {
+        width: 80vw;
+    }
+    .first-comment {
+        width: 80vw;
+    }
+    .time {
+        position: unset;
+        margin-top: -1rem;
+        margin-left: 0px;
+    }
+    .time-div {
+        margin-top: 10px;
+    }
+    .first-containar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .more-relative {
+        width: 80vw;
+    }
+    .posts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .post {
+        width: 70vw;
+    }
+}
+
+
+/* end media query for mobile */
+
+@media (min-width:769px) and (max-width :1023px) {
+    .comments {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center;
+        width: 50%; */
+    }
+    .comments h2 {
+        margin-left: 0px;
+    }
+    .comments-section {
+        /* width: 50%; */
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* margin-left: 50px; */
+    }
+    .first-containar {
+        justify-content: space-between;
+    }
+    .comments textarea {
+        width: 100%;
+    }
+    .comments button {
+        width: 100%;
+    }
+    .comments input {
+        width: 100%;
+    }
+    .first-comment {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        display: inline;
+    }
+    .username {
+        position: unset;
+        margin-left: 0px;
+        display: inline;
+    }
+    .time {
+        position: unset;
+        margin-left: 0px;
+    }
+}
