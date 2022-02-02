@@ -54,11 +54,16 @@ header {
     margin-right: 25px;
 }
 
+
 .nav-bar .unorderlist-nav li a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: normal;
+    transition: all 0.5s ease-in-out;
+}
+.nav-bar .unorderlist-nav li a:hover {
+    color: #a71313;
 }
 
 .navBar-img {
@@ -115,6 +120,11 @@ header {
     width: 69%;
     margin-right: 1%;
     position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.important-news .left-news:hover img {
+    transform: scale(1.2);
 }
 .important-news .left-news figure,
 .important-news .right-news .important figure{
@@ -143,6 +153,11 @@ header {
 .important-news .right-news .important  {
     height: 49%;
     position: relative !important;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.important-news .right-news .important:hover img {
+    transform: scale(1.2);
 }
 .important-news .left-news .content,
 .important-news .right-news .content {
@@ -178,8 +193,16 @@ header {
     width: 32%;
     margin-bottom: 1em;
     border: 1px solid black;
+;
+    
 }
-
+.post:hover img {
+    transform: rotate(5deg) scale(1.5);
+}
+.post figure {
+    overflow: hidden;
+    transition: all 0.5s ease-in-out
+}
 .post figure img {
     width: 100%;
 }
@@ -188,11 +211,7 @@ header {
     margin: .5em;
     font-size: 1.5em;
 }
-
-
 /* end recent section style */
-
-
 /* start politics and most-read section */
 .politics-most-read,
 .culture-devices {
@@ -230,12 +249,27 @@ header {
     width: 48%;
     margin-bottom: 1em;
 }
+.politics-economics .politics .news .new:hover img,
+.politics-economics .economic .news .new:hover img,
+.sport-culture .sport .news .new:hover img,
+.sport-culture .culture .news .new:hover img {
+    transform: scale(1.5) rotate(5deg);
+}
 .politics-economics a,
 .most-read a,
 .sport-culture a,
 .devices a {
     text-decoration: none;
     color: black;
+}
+.politics-economics figure ,
+.most-read figure ,
+.sport-culture figure ,
+.devices figure  {
+    width: 100%;
+    height: 18em;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
 }
 .politics-economics figure img,
 .most-read figure img,
