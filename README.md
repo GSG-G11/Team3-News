@@ -26,3 +26,6 @@ to complete the project.
 5. We will make the site responsive to different devices.
 ## Live Link
 We are pleased to have you visit our website [from here](https://gsg-g11.github.io/Team3-News/), and thank you.
+
+## Team Leader
+* Mohammad H Mansour.
