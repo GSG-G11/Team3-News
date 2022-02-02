@@ -122,6 +122,7 @@ header {
     position: relative;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
+    animation: animateSlowly 1s ease-in-out forwards 1s;
 }
 .important-news .left-news:hover img {
     transform: scale(1.2);
@@ -155,6 +156,7 @@ header {
     position: relative !important;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
+    animation: animateSlowly 1s ease-in-out forwards 1s;
 }
 .important-news .right-news .important:hover img {
     transform: scale(1.2);
@@ -186,6 +188,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .post {
@@ -193,6 +196,7 @@ header {
     width: 32%;
     margin-bottom: 1em;
     border: 1px solid black;
+    animation: animateSlowly 1s ease-in-out forwards 2s;
 ;
     
 }
@@ -463,4 +467,10 @@ h3 {
         font-size: 1em;
     }
 
+}
+@keyframes animateSlowly {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
 }
