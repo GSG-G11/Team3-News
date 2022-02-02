@@ -138,26 +138,36 @@ header {
     width: 48%;
     margin-bottom: 1em;
 }
-
-.politics-economics .news .new a {
+.politics-economics a,
+.most-read a {
     text-decoration: none;
     color: black;
 }
-
-.politics-economics .news .new figure img {
+.politics-economics figure img,
+.most-read figure img {
     width: 100%;
     height: 18em;
 }
-
-.politics-economics .news .new p {
-    margin: .5em 0;
-    font-size: 1.5em;
+.politics-economics .news .new p,
+.most-read .news .new p {
+   margin: .5em 0;
+   font-size: 1.5em;
 }
-
 .most-read {
-    padding: 1em;
+    padding: 1em ;
     width: 30%;
     background-color: white;
+}
+.most-read .article {
+    box-shadow: 2px 2px 17px 5px rgba(0,0,0,0.08);
+    border-radius: .5em;
+    margin-bottom: 1em;
+}
+.most-read img {
+    border-radius: .5em .5em 0 0;
+}
+.most-read .article p {
+    padding: .5em;
 }
 
 
