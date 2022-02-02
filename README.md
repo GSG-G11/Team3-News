@@ -27,5 +27,11 @@ to complete the project.
 ## Live Link
 We are pleased to have you visit our website [from here](https://gsg-g11.github.io/Team3-News/), and thank you.
 
+## Team 
+* Amran Muin Elmasri.
+* Israa Hamdi Abu Rayya.
+* Mahmoud Ahmad Alhato.
+* Rawan Eyad Algharabli.
+
 ## Team Leader
 * Mohammad H Mansour.
