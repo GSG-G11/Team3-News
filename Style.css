@@ -188,7 +188,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .post {
@@ -196,16 +195,15 @@ header {
     width: 32%;
     margin-bottom: 1em;
     border: 1px solid black;
-    animation: animateSlowly 1s ease-in-out forwards 2s;
-;
-    
+    transition: all 2s ease-in-out;
 }
 .post:hover img {
     transform: rotate(5deg) scale(1.5);
 }
 .post figure {
     overflow: hidden;
-    transition: all 0.5s ease-in-out
+    transition: all 0.5s ease-in-out;
+    animation: animateSlowly 1s ease-in-out forwards 2s;
 }
 .post figure img {
     width: 100%;
