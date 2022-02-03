@@ -16,35 +16,21 @@ body {
 /* nav bar start */
 
 header {
-    top: 0px;
-    width: 100%;
-    max-width: 100%;
     height: 100px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
 }
 
 .nav-bar {
-    width: 100%;
     height: 50%;
-    background-color: rgb(165, 129, 129);
+    background-color: #EEEEEE;
     display: flex;
     justify-content: center;
-    align-items: center;
     position: relative;
 }
 
 .nav-bar .unorderlist-nav {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    list-style: none;
     padding: 10px;
     margin-right: 40px;
 }
@@ -55,20 +41,22 @@ header {
     margin-right: 25px;
 }
 
+
 .nav-bar .unorderlist-nav li a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
-    font-weight: normal;
     transition: all 0.5s ease-in-out;
+    color: black;
 }
-.nav-bar .unorderlist-nav li a:hover {
-    color: #a71313;
+.nav-bar .unorderlist-nav li a:hover,
+.first-child {
+    color: #a71313 !important;
 }
+
 .navBar-img {
     height: 100%;
     position: absolute;
-    top: 0;
     left: 5rem;
 }
 .fa-bars{
@@ -204,8 +192,8 @@ header {
     margin-top: 0.5rem;
     padding: 1rem;
     width: 24.9rem;
-    height: 2rem;
-    background-color: #E8BFBF;
+    /* height: 3rem; */
+    background-color: #ffe4e4;
     border: none;
     border-radius: 0.3rem;
 }
@@ -214,9 +202,9 @@ header {
     padding: 1rem;
     margin-top: 0.5rem;
     width: 50rem;
-    height: 15rem;
+    height: 10rem;
     resize: none;
-    background-color: #E8BFBF;
+    background-color: #ffe4e4;
     border: none;
     border-radius: 0.3rem;
 }
