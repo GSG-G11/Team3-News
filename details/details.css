@@ -80,7 +80,7 @@ header {
 @media  screen and (max-width: 768px) {
     .fa-bars{
         color: white;
-        padding-left: 15em;
+        padding-left: 10em;
         text-align: right;
         display: block !important;
     }
